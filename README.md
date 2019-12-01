@@ -1,8 +1,8 @@
-[![StyleCI](https://github.styleci.io/repos/225050142/shield?branch=master)](https://github.styleci.io/repos/225050142)
+
 
 
 # Commander for Laravel
-[![Latest Stable Version](https://poser.pugx.org/darovi/commander/v/stable)](https://packagist.org/packages/darovi/commander)[![Total Downloads](https://poser.pugx.org/darovi/commander/downloads)](https://packagist.org/packages/darovi/commander)[![License](https://poser.pugx.org/darovi/commander/license)](https://packagist.org/packages/darovi/commander)
+[![Latest Stable Version](https://poser.pugx.org/darovi/commander/v/stable)](https://packagist.org/packages/darovi/commander) [![Total Downloads](https://poser.pugx.org/darovi/commander/downloads)](https://packagist.org/packages/darovi/commander) [![License](https://poser.pugx.org/darovi/commander/license)](https://packagist.org/packages/darovi/commander) [![StyleCI](https://github.styleci.io/repos/225050142/shield?branch=master)](https://github.styleci.io/repos/225050142)
 
 ## Getting Started
 
