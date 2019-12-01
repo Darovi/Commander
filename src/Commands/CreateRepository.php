@@ -38,7 +38,7 @@ class CreateRepository extends Command
     public function handle()
     {
         $name = $this->argument('name');
-        $fullPath = "App/Repositories/";
+        $fullPath = 'App/Repositories/';
 
         $stub = file_get_contents($this->getStub());
 
@@ -47,11 +47,10 @@ class CreateRepository extends Command
         $stub = $this->replaceClassName($stub, $name);
 
         $this->makeRepositoryFile($stub, $name, $fullPath);
-
     }
 
     /**
-     * Creates the file
+     * Creates the file.
      */
     public function makeRepositoryFile($stub, $name, $fullPath)
     {
@@ -61,8 +60,9 @@ class CreateRepository extends Command
         }
         file_put_contents($fullPath.$name.'.php', $stub);
     }
+
     /**
-     * Replaces the class name sent with the command
+     * Replaces the class name sent with the command.
      */
     public function replaceClassName($stub, $name)
     {
@@ -70,7 +70,7 @@ class CreateRepository extends Command
     }
 
     /**
-     * Replaces the namespace with the default namespace
+     * Replaces the namespace with the default namespace.
      */
     public function replaceNameSpace($stub, $namespace)
     {
@@ -90,7 +90,8 @@ class CreateRepository extends Command
     /**
      * Get the namespace for the class.
      *
-     * @param  string  $rootNamespace
+     * @param string $rootNamespace
+     *
      * @return string
      */
     protected function getNamespace()
