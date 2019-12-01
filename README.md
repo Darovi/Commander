@@ -32,7 +32,7 @@ Add the package service provider to your providers array in `config/app.php`
 To create a new repository class use the command
 
 ```bash
-make:repository CLASSNAME
+php artisan make:repository CLASSNAME
 ```
  
  
