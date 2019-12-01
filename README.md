@@ -29,7 +29,14 @@ Add the package service provider to your providers array in `config/app.php`
 
 ### Create a new Repository class
 
-To create a new repository class use the command `make:repository CLASSNAME`. Replace CLASSNAME with the name you want to provide your repository class.
+To create a new repository class use the command
+
+```bash
+make:repository CLASSNAME
+```
+ 
+ 
+ Replace CLASSNAME with the name you want to provide your repository class.
 
 ## Disclaimer
 
