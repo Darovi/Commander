@@ -1,0 +1,17 @@
+<?php
+
+namespace {{repositoryNamespace}};
+
+class {{class}}
+{
+    /**
+     * A standard class to get from database
+     *
+     * @return object
+     */
+    public function get()
+    {
+
+    }
+
+}

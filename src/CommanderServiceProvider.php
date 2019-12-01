@@ -1,6 +1,8 @@
 <?php
 
 namespace Darovi\Commander;
+
+use Darovi\Commander\Commands\CreateRepository;
 use Illuminate\Support\ServiceProvider;
 
 class CommanderServiceProvider extends ServiceProvider
@@ -22,6 +24,10 @@ class CommanderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                CreateRepository::class,
+            ]);
+        }
     }
 }

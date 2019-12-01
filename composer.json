@@ -9,6 +9,10 @@
         }
     ],
     "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "8.4.*",
+        "laravel/laravel": "dev-develop"
+    },
     "autoload": {
         "psr-4": {
             "Darovi\\Commander\\": "src/"
