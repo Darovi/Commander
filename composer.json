@@ -17,5 +17,12 @@
         "psr-4": {
             "Darovi\\Commander\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Darovi\\Commander\\CommanderServiceProvider"
+            ]
+        }
     }
 }
