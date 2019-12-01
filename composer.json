@@ -1,5 +1,5 @@
 {
-    "name": "Darovi/Commander",
+    "name": "darovi/commander",
     "description": "A series of commands usable in the Laravel Framework to generate providers, services, etc.",
     "license": "MIT",
     "authors": [
