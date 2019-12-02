@@ -9,7 +9,7 @@
 To get started you need to install the package with Composer:
 
 ```bash
-composer require laracademy/interactive-make
+composer require darovi/commander
 ```
 
 ### Laravel >= 5.5
